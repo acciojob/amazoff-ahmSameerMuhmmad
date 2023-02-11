@@ -13,7 +13,7 @@ public class OrderService {
  @Autowired
 //    OrderRepository orderRepository;
 
-    OrderRepository orderRepository
+    OrderRepository orderRepository;
 
 
     public void addOrder(Order order){
